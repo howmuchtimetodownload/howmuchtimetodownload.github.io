@@ -1,0 +1,26 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: black
+}
+h1 {color: white; font-size: 50px;}
+p  {color: white; font-size: 22px}
+button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 15px 25px;
+  padding: 20px 35px;
+  overflow: hidden;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,1);
+  transition: color .3s, background .5s;
+}
+button:hover {
+  background-size: 10px 10px;
+}
